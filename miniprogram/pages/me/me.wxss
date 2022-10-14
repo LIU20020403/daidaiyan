@@ -1,0 +1,21 @@
+/* pages/me/me.wxss */
+.upload_container{
+  height: 300rpx;
+  width: fit-content;
+}
+.button{
+  background-color: #EA5149;
+  margin-top: 100rpx;
+}
+.name{
+  text-align: center;
+  padding-top: 10px;
+  font-size: large;
+}
+.image{
+  height: 100px;
+  width: 100px;
+  display:block;
+  padding-top: 20px;
+  justify-content: center;
+}
