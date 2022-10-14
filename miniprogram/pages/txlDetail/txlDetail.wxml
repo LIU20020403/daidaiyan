@@ -1,0 +1,24 @@
+<!-- pages/txlDetail/txlDetail.wxml -->
+<view>
+    <view class="show">
+      <view class="img">
+        <image class="people" src="https://i.imgtg.com/2022/10/10/p6lYP.png"></image>
+      </view>
+      <view class="name">
+        <text decode="{{true}}">{{name}}</text>
+      </view>
+      <view class="phonenumber">
+        <text decode="{{true}}">&nbsp;&nbsp;{{phonenumber}}</text>
+        <view class="call">
+          <button class="phonecall" size="mini" bindtap="call" data-pnumber="{{phonenumber}}"><image src="https://ts1.cn.mm.bing.net/th/id/R-C.24fed0c3764a04453ca29461a6cfec75?rik=oajwZhDGSvcPMw&riu=http%3a%2f%2fpic.616pic.com%2fys_bnew_img%2f00%2f46%2f78%2frAVmN1P9Yi.jpg&ehk=QwHce3zzWHGa1ioc%2bWx37%2fFQNQpPIzCZl27s51DsyZg%3d&risl=&pid=ImgRaw&r=0"></image></button>
+        </view>
+      </view>
+    </view>
+    <!-- <image src="https://i.imgtg.com/2022/10/08/pShGq.jpg"></image> -->
+    <view class="horizon"></view>
+    <view>
+      <text>\n</text>
+      <!-- <text>{{id}}</text> -->
+      <button bindtap="pdelete" data-deleteid="{{id}}">删除联系人</button>
+    </view>
+</view>

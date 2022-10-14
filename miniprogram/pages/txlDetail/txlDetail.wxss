@@ -1,0 +1,53 @@
+/* pages/txlDetail/txlDetail.wxss */
+.img{
+  height: 150px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 40px;
+}
+.people{
+  border-radius: 50%;
+  overflow:hidden;
+  height: 120px;
+  width: 120px;
+}
+.name{
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+.phonenumber{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 20px;
+  height: 50px;
+  position: relative;
+}
+.phonenumber .call{
+  position: absolute;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-end; */
+  right: 20px;
+}
+.phonenumber .call image{
+  /* margin-left: 100px; */
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+.horizon{
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  position: absolute;
+  margin-left: 30rpx;
+  margin-right: 10rpx;
+  z-index: -99;
+}
