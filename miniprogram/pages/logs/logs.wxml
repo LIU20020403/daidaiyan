@@ -1,4 +1,0 @@
-<!-- <view>{{lists[0].add}}</view>> -->
-  <view wx:for="{{lists}}"  >
-      <view>索引：{{index}},值:{{item.time}}</view>
-  </view>
