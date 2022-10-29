@@ -1,0 +1,62 @@
+/**index.wxss**/
+/* .button{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 100%;
+} */
+#addphoto{
+  margin: 30px;
+  border-radius: 50%;
+  /* overflow:hidden; */
+  height: 100px;
+  width: 100px;
+}
+input{
+  min-height: 3rem;
+}
+.inputname{
+  margin:10rpx 10rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+}
+.placeholder-style {
+  font-size: 20px;
+  font-weight: 400;
+}
+.inputpnumber{
+  margin:10rpx 10rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+.add{
+  margin: 30px;
+  border-radius: 50%;
+  overflow:hidden;
+  height: 100px;
+  width: 100px;
+}
+.inputname image{
+  border-radius: 50%;
+  overflow:hidden;
+  height: 30px;
+  width: 30px;
+}
+.inputpnumber image{
+  height: 30px;
+  width: 30px;
+}
+textarea{
+  width: 700rpx;
+  padding: 25rpx 0;
+  font-size: 20px;
+} 

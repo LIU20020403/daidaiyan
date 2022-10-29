@@ -1,0 +1,24 @@
+<!-- <view>{{lists[0].add}}</view>> -->
+<view bindtap="showdetail" class="del_button"></view>
+<view class="body">
+
+  <view wx:for="{{lists}}" wx:key="*this">
+    <view class="card">
+      <view>
+           <view class="show">
+              <image src="{{item.photopath}}" class="img">
+              </image>
+              <text decode="{{true}}">&nbsp;&nbsp;{{item.name}}</text>  
+              <view bindtap="showdetail" data-name="{{item.name}}" class="button_del">call</view>
+              </view>
+              <view class="textBX">
+               <text  class="self_info">
+                  {{item.biography}}
+               </text>
+               </view>
+          </view>
+      </view>
+   </view>
+
+   <view class="blank"></view>
+</view>

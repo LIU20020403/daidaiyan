@@ -1,0 +1,50 @@
+/* pages/test1/test1.wxss */
+.tt{
+  background-color: khaki;
+  width: 30px;
+  
+  height: 40px; 
+  overflow: hidden;
+}
+.img{
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.body{
+  display: inline-block;
+  position: relative;
+  justify-content:center;
+  height: 500px;
+  width: 100%;
+  min-height: 150px;
+  background-image: linear-gradient(45deg, #ffecd2 0%, #fcb69f 100%);
+}
+.card{
+  display:inline-block;
+  position: relative;
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 20px;
+  height: 100px;
+  transition: 0.2s;
+
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  background-color: white;
+}
+.card:hover{
+  height: 200px;
+  width: 200px;
+}
+.t{
+  width: 20px;
+  height: 30px;
+  background-color: tomato;
+}
+.t:hover{
+  width: 40px;
+  height: 60px;
+}

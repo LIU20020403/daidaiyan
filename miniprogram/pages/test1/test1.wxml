@@ -1,0 +1,14 @@
+<!--pages/test1/test1.wxml-->
+<view class="tt">
+  <text>aaaaaasssawerawerssss
+  eraeorjwethawehfawhdfjsdfewarwerawerawerawerwerawerawesdfsdsa</text>
+</view>
+
+
+
+<view class="body">
+
+  <view class="card"></view>
+  <view class="card"></view>
+  <view class="card"></view> 
+</view>
