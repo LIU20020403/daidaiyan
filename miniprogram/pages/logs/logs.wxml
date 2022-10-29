@@ -1,8 +1,0 @@
-<!-- <view>{{lists[0].add}}</view>> -->
-<view wx:for="{{lists}}" wx:key="*this">
-    <view bindtap="showdetail" data-name="{{item.name}}" class="show">
-    <image src="https://i.imgtg.com/2022/10/08/pShGq.jpg"></image><text decode="{{true}}">&nbsp;&nbsp;{{item.name}}</text>
-    </view> 
-    <view class="horizon"></view>
-</view>
-
